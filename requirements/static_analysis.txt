@@ -1,0 +1,10 @@
+bandit~=1.7
+black
+flakehell
+# flakehell is incompatible with flake8==3.9.1
+flake8<3.9.1
+flake8-docstrings
+flake8-print
+flake8-spellcheck
+isort
+safety
