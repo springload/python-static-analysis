@@ -6,4 +6,3 @@ flake8-print
 flake8-spellcheck
 isort~=5.10.1
 pip_audit~=2.4
-safety
