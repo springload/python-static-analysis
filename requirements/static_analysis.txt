@@ -1,9 +1,9 @@
 bandit~=1.7
 black~=23.1
 djlint
-flakeheaven~=1.0.1
+flakeheaven~=3.3
 flake8-docstrings
 flake8-print
 flake8-spellcheck
-isort~=5.10.1
+isort~=5.10
 pip_audit~=2.4
