@@ -1,4 +1,4 @@
-FROM python:3.9-slim AS static-analysis
+FROM python:3.11-slim AS static-analysis
 
 WORKDIR /project
 COPY requirements/static_analysis.txt requirements/static_analysis.txt
