@@ -6,4 +6,6 @@ flake8-docstrings
 flake8-print
 flake8-spellcheck
 isort~=5.10
-pip_audit~=2.4
+# Pip-audit 2.5.3 changes package resolution
+# and attempts to install psycopg2 from source
+pip-audit==2.5.2
