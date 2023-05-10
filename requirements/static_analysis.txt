@@ -6,6 +6,9 @@ flake8-docstrings
 flake8-print
 flake8-spellcheck
 isort~=5.10
+# urllib3 v2 updates break cachecontrol, an upstream dependency of pip-audit
+# https://github.com/ionrock/cachecontrol/pull/294
+urllib3<2
 # Pip-audit 2.5.3 changes package resolution
 # and attempts to install psycopg2 from source
 pip-audit==2.5.2
