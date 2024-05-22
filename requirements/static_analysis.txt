@@ -1,15 +1,6 @@
 bandit~=1.7
-black~=23.1
-djlint
-flakeheaven~=3.3
-flake8-docstrings
-flake8-print
-flake8-spellcheck
-isort~=5.10
-# urllib3 v2 updates break cachecontrol, an upstream dependency of pip-audit
-# https://github.com/ionrock/cachecontrol/pull/294
-urllib3<2
-# Pip-audit 2.5.3 changes package resolution
-# and attempts to install psycopg2 from source
-pip-audit==2.5.2
-ruff
+black~=24.4
+djlint~=1.34
+isort~=5.13
+pip-audit~=2.7.3
+ruff==0.4.4
