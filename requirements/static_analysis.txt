@@ -1,5 +1,5 @@
 bandit~=1.7
-black~=23.1
+black~=24.4
 djlint
 flakeheaven~=3.3
 flake8-docstrings
